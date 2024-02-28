@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/react-assignment-2/static/css/main.9ff854fd.css",
+    "main.js": "/react-assignment-2/static/js/main.750016d6.js",
+    "static/media/img-02.jpg": "/react-assignment-2/static/media/img-02.4a071af87dfe01b3da66.jpg",
+    "static/media/truck.jpg": "/react-assignment-2/static/media/truck.ff67dd36e8e047ee1685.jpg",
+    "static/media/abaya.jpg": "/react-assignment-2/static/media/abaya.54a8e365b1fbc4ad8d6e.jpg",
+    "index.html": "/react-assignment-2/index.html",
+    "main.9ff854fd.css.map": "/react-assignment-2/static/css/main.9ff854fd.css.map",
+    "main.750016d6.js.map": "/react-assignment-2/static/js/main.750016d6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9ff854fd.css",
+    "static/js/main.750016d6.js"
+  ]
+}
