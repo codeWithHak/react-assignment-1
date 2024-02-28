@@ -46,14 +46,15 @@ function SignUp() {
     }
     return errors;
   };
-
+  {Object.keys(formErrors).length === 0 && isSubmit ? (
+    <div className="ui message success">Signed in successfully</div>
+  ) : (
+    <pre>{console.log(JSON.stringify(formValues, undefined, 2))}</pre>
+  )}
   return (
+    
     <div className="container">
-      {Object.keys(formErrors).length === 0 && isSubmit ? (
-        <div className="ui message success">Signed in successfully</div>
-      ) : (
-        <pre>{JSON.stringify(formValues, undefined, 2)}</pre>
-      )}
+    
 
       <form onSubmit={handleSubmit}>
         <h1>Login Form</h1>
@@ -62,6 +63,7 @@ function SignUp() {
           <div className="field">
             <label>Username</label>
             <input
+            className="username"
               type="text"
               name="username"
               placeholder="Username"
@@ -73,6 +75,7 @@ function SignUp() {
           <div className="field">
             <label>Email</label>
             <input
+            className="email"
               type="text"
               name="email"
               placeholder="Email"
@@ -84,6 +87,7 @@ function SignUp() {
           <div className="field">
             <label>Password</label>
             <input
+            className="password"
               type="password"
               name="password"
               placeholder="Password"
@@ -94,6 +98,7 @@ function SignUp() {
           <p>{formErrors.password}</p>
           <button className="fluid ui button blue">Submit</button>
         </div>
+       
       </form>
     </div>
   );

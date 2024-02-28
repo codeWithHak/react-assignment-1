@@ -13,7 +13,7 @@ const HeroSection = () => {
             buttonSize='btn--large'>Begin now.</Button> 
 
             <Button className='btns' buttonStyle='btn--primary'
-            buttonSize='btn--large'>Watch Trailer <i className='fa-play-circle'></i></Button>  
+            buttonSize='btn--large'>Sign Up <i className='fa-play-circle'></i></Button>  
         </div>
     </div>
   )
